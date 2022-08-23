@@ -1,0 +1,82 @@
+{
+  "staff": [
+    {
+      "id": 1,
+      "email": "testuser1@gmail.com",
+      "password": "testpassword1",
+      "first_name": "FirstName 1",
+      "last_name": "LastName 1",
+      "mobile_no": "1111111111",
+      "date_of_joining": "01-01-2021"
+    },
+    {
+      "id": 3,
+      "email": "testuser3@yahoo.com",
+      "password": "testpassword3",
+      "first_name": "FirstName 3",
+      "last_name": "LastName 3",
+      "mobile_no": "3",
+      "date_of_joining": "03-03-2022"
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5,
+      "email": "testuser5@gmail.com",
+      "password": "testpassword5",
+      "first_name": "FirstName 5",
+      "last_name": "LastName 5",
+      "mobile_no": "5555555555",
+      "date_of_joining": "05-05-2021"
+    },
+    {
+      "id": 6,
+      "email": "testuser6@gmail.com",
+      "password": "testpassword6",
+      "first_name": "FirstName 6",
+      "last_name": "LastName 6",
+      "mobile_no": "6666666666",
+      "date_of_joining": "06-06-2021"
+    },
+    {
+      "email": "Enter name",
+      "firstname": "Enter first name",
+      "lastname": "Enter last name",
+      "password": "Enter password",
+      "mobile": "Enter mobile",
+      "doj": "Enter doj",
+      "id": 7
+    },
+    {
+      "email": "Enter name",
+      "firstname": "Enter first name",
+      "lastname": "Enter last name",
+      "password": "Enter password",
+      "mobile": "Enter mobile",
+      "doj": "Enter doj",
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 55,
+      "email": "testuser88@gmail.com",
+      "password": "testpassword8",
+      "first_name": "FirstName 8",
+      "last_name": "LastName 8",
+      "mobile_no": "8888888888",
+      "date_of_joining": "08-08-2021"
+    },
+    {
+      "email": "Enter name",
+      "firstname": "Enter first name",
+      "lastname": "Enter last name",
+      "password": "Enter password",
+      "mobile": "Enter mobile",
+      "doj": "Enter doj",
+      "id": 56
+    }
+  ]
+}

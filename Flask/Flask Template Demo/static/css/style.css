@@ -1,0 +1,16 @@
+:root {
+    --white: #F2F2F2;
+    --orange: #F96D00;
+    --black: #393E46;
+    --grey: #5C636E;
+    --orange-low: #F96D0020;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--black);
+}
