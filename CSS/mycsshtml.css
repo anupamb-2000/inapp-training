@@ -1,0 +1,66 @@
+
+/* Universal Selector */
+*{
+    color: aquamarine;
+}
+
+/* Type Selector */
+h3 {
+    width: 120px;
+    height: 30px;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid;
+    color: aqua;
+}
+
+/* Class Selector */
+.splclass {
+    color: cadetblue;
+}
+
+/* Id Selector */
+#splid {
+    color: darkturquoise;
+}
+
+/* Attribute Selector */
+input[type="button"] {
+    background-color: lightblue;
+    color: indianred;
+    width: 20%;
+}
+
+/* Multiple Selector */
+p,h1, h3 {
+    color: springgreen;
+}
+
+/* Important rule - cannot be overriden */
+h1{
+    color: tomato !important;
+    background-color: #f2f2f2;
+}
+
+/* Pseudo-class Selector */
+a:hover {
+    outline: 2px dotted hotpink;
+}
+
+/* Pseudo-element Selector */
+p::first-letter {
+    color: teal;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* CSS Color */
+.colorname {
+    color: darkolivegreen;
+}
+.hexcode {
+    color: #393E4680; 
+}
+.rgb {
+    color: rgba(249, 109, 0, 0.6);
+}

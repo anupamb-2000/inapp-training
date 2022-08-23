@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Minified CSS -->
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+    rel="stylesheet">
+    <!-- Including Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Minified JS -->
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+</head>
+<body>
+    <!-- App Bar -->
+    <header class="mdc-top-app-bar">
+        <div class="mdc-top-app-bar__row">
+          <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+            <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button" aria-label="Open navigation menu">menu</button>
+            <span class="mdc-top-app-bar__title">Page title</span>
+          </section>
+          <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+            <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Favorite">favorite</button>
+            <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Search">search</button>
+            <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Options">more_vert</button>
+          </section>
+        </div>
+    </header>
+      <main class="mdc-top-app-bar--fixed-adjust">
+        App content
+      </main>
+
+      <!-- Buttons -->
+      <div class="mdc-touch-target-wrapper">
+        <button class="mdc-button mdc-button--touch">
+          <span class="mdc-button__ripple"></span>
+          <span class="mdc-button__touch"></span>
+          <span class="mdc-button__label">My Accessible Button</span>
+        </button>
+      </div>
+      <!-- Button with icon -->
+      <button class="mdc-button mdc-button--icon-leading">
+        <span class="mdc-button__ripple"></span>
+        <i class="material-icons mdc-button__icon" aria-hidden="true"
+          >bookmark</i
+        >
+        <span class="mdc-button__label">Text Button plus icon</span>
+      </button>
+      <!-- Outlined button -->
+      <button class="mdc-button mdc-button--outlined">
+        <span class="mdc-button__ripple"></span>
+        <span class="mdc-button__label">Outlined Button</span>
+      </button>
+      <!-- Contained Button -->
+      <button class="mdc-button mdc-button--raised">
+        <span class="mdc-button__label">Contained Button</span>
+      </button>
+
+      <!-- Checkboxes -->
+      <div class="mdc-touch-target-wrapper">
+        <div class="mdc-checkbox mdc-checkbox--touch">
+          <input type="checkbox"
+                 class="mdc-checkbox__native-control"
+                 id="checkbox-1"/>
+          <div class="mdc-checkbox__background">
+            <svg class="mdc-checkbox__checkmark"
+                 viewBox="0 0 24 24">
+              <path class="mdc-checkbox__checkmark-path"
+                    fill="none"
+                    d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+            </svg>
+            <div class="mdc-checkbox__mixedmark"></div>
+          </div>
+          <div class="mdc-checkbox__ripple"></div>
+        </div>
+      </div>
+
+      <!-- Radio Buttons -->
+      <div class="mdc-touch-target-wrapper">
+        <div class="mdc-radio mdc-radio--touch">
+          <input class="mdc-radio__native-control" type="radio" id="radio-1" name="radios" checked>
+          <div class="mdc-radio__background">
+            <div class="mdc-radio__outer-circle"></div>
+            <div class="mdc-radio__inner-circle"></div>
+          </div>
+          <div class="mdc-radio__ripple"></div>
+        </div>
+      </div>
+    </body>
+</html>

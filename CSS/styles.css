@@ -1,0 +1,12 @@
+#navigation1 {
+    float: left;
+    width: 200px;
+}
+
+#navigation2 {
+    float: right;
+}
+
+#content {
+    margin: 0 200px 0 200px; /* to right boom left */
+}
